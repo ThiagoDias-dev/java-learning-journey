@@ -18,7 +18,7 @@ public class TiposPrimitivos {
         // --- 5. TIPO TEXTO (Não é primitivo, é uma Classe) ---
         String nome = "Alex Silva"; // Guarda textos complexos (aspas duplas)
 
-        // --- EXIBINDO OS VALORES NO CONSOLE ---
+        // --- EXIBINDO OS VALORES NO CONSOLE ----
         System.out.println("=== Dados do Usuário ===");
         System.out.println("Nome: " + nome);      
         System.out.println("Idade: " + idade + " anos");
