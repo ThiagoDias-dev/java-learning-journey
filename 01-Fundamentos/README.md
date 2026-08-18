@@ -24,4 +24,14 @@ Interação dinâmica com o usuário através do terminal.
 *   **Boa prática**: Fechamento do fluxo de dados utilizando o método `.close()`.
 
 ---
+Certifique-se de ter o **JDK (Java Development Kit)** instalado em sua máquina.
 
+1. Abra o terminal na pasta deste arquivo.
+2. Compile o arquivo desejado:
+   ```bash
+   javac NomeDoArquivo.java
+   ```
+3. Execute o programa gerado:
+   ```bash
+   java fundamentos.NomeDoArquivo
+   ```
