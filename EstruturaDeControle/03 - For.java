@@ -1,11 +1,15 @@
 public class For{
     public static void main(String[] args){
-
-     for (int Contagem = 0; Contagem <=9; Contagem++){ //(inicialização; condição; incremento)
-               System.out.println(Contagem);  //  Resultado atual
-     }
-     for (int ContagemRegressiva = 10; ContagemRegressiva >=0; ContagemRegressiva--){ //(inicialização; condição; decremento)
-                System.out.println(ContagemRegressiva); //  Resultado atual
-     }
-    }
-   }
+        // Senha de inicialização
+     int senha = 0;
+        // Executa enquanto a condição for verdadeira (senha diferente de 5)
+     while(senha!=5) {
+        // Mostra a tentativa atual
+        System.out.println("Tentativa: " +senha);
+        // Incrementa mais 1 a cada tentativa
+        senha++;
+        }
+        // Execução quando a condição se torna falsa
+        System.out.println("Tentativa: 05. SENHA CORRETA! ");
+       }
+      }
